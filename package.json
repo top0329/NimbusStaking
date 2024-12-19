@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5",
+    "dotenv": "^16.4.1"
+  },
+  "dependencies": {},
+  "name": "nimbus-contract",
+  "description": "Nimbus Staking Smart Contract.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
